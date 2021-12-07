@@ -1,0 +1,30 @@
+{
+    "crossCorse": 
+        {
+            "typeOfProject": "Cross Corse",
+            "projectName" : "Rainydays",
+            "githubLink": "https://github.com/JosefineFH/ecommerce-Rainyday",
+            "liveVersion": "https://rainydaysecommerce.netlify.app/",
+            "scriptLanguages" : "JavaScript | HTML | CSS"
+            
+        }
+    ,
+    "semesterProject": 
+        {
+            "typeOfProject": "Semester Project",
+            "projectName": "The Science Museum",
+            "githubLink": "https://github.com/JosefineFH/semester_project_1",
+            "liveVersion": "https://community-museum.netlify.app/",
+            "scriptLanguages" : "HTML | CSS"
+        }
+    ,
+    "projectExam": 
+        {
+            "typeOfProject": "Project Exam",
+            "projectName": "Photographer Josefine Holth | Blog",
+            "githubLink": "https://github.com/Noroff-FEU-Assignments/project-exam-1-JosefineFH",
+            "liveVersion": "https://josefineholthphotographer.netlify.app/index.html",
+            "scriptLanguages" : "JavaScript | HTML | CSS"
+        }
+    
+}

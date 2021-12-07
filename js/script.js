@@ -1,54 +1,56 @@
-const crossCourse = document.querySelector('.cross_corse_tab');
-const semesterProject = document.querySelector('.semester_project_tab');
-const projectExam = document.querySelector('.project_exam_tab');
+const jsonData = '/data.json';
+const CrossCorseContent = document.querySelector('.cross_course_content');
+const semesterProjectContent = document.querySelector('.semester_project_content');
+const projectExamContent = document.querySelector('.project_exam_content');
 
-const crossCourseSection = document.querySelector('.cross_course_project');
-const semesterProjectSection = document.querySelector('.semester_project');
-const projectExamSection = document.querySelector('.project_exam_1');
+fetchContent();
 
+function fetchContent() {
+    fetch(jsonData)
+        .then(response => response.json())
+        .then(data => {
 
-semesterProjectSection.style.display = 'none';
-projectExamSection.style.display = 'none';
+            let crossCorseData = data.crossCorse;
+            let semesterProjectData = data.semesterProject;
+            let projectExamData = data.projectExam;
 
-semesterProject.addEventListener('click', () => {
-    console.log('click')
-})
-crossCourse.addEventListener('click', () => {
-    crossCourseSection.style.display = 'block';
-    semesterProjectSection.style.display = 'none';
-    projectExamSection.style.display = 'none';
+            CrossCorseContent.innerHTML += `
+            <div>
+            <h2>${crossCorseData.projectName}</h2>
+            <p style="text-align: center; padding-top: 20px;">${crossCorseData.scriptLanguages}</p>
+            <ul>
+            <li><a hrf="${crossCorseData.githubLink}">Github</a></li>
+            <li> | </li>
+            <li><a href="${crossCorseData.liveVersion}">Live Version</a></li>
+            </ul>
+            </div>
+            `;
+            /* ---------------------------- Semester project ---------------------------- */
 
-    crossCourse.style.backgroundColor = '#B8D2D8'
-    crossCourseSection.style.backgroundColor = '#B8D2D8';
+            semesterProjectContent.innerHTML += `
+            <div>
+            <h2>${semesterProjectData.projectName}</h2>
+            <p style="text-align: center; padding-top: 20px;">${semesterProjectData.scriptLanguages}</p>
+            <ul>
+            <li><a hrf="${semesterProjectData.githubLink}">Github</a></li>
+            <li> | </li>
+            <li><a href="${semesterProjectData.liveVersion}">Live Version</a></li>
+            </ul>
+            </div>
+                `;
+            /* ------------------------------ Project Exsam ----------------------------- */
+            
+            projectExamContent.innerHTML += `
+            <div>
+            <h2>${projectExamData.projectName}</h2>
+            <p style="text-align: center; padding-top: 20px;">${projectExamData.scriptLanguages}</p>
+            <ul>
+            <li><a hrf="${semesterProjectData.githubLink}">Github</a></li>
+            <li> | </li>
+            <li><a href="${semesterProjectData.liveVersion}">Live Version</a></li>
+            </ul>
+            </div>
+            `
 
-    semesterProject.style.backgroundColor = 'unset';
-    projectExam.style.backgroundColor = 'unset';
-
-
-})
-semesterProject.addEventListener('click', () => {
-    
-    crossCourseSection.style.display = 'none';
-    semesterProjectSection.style.display = 'block';
-    projectExamSection.style.display = 'none';
-
-    semesterProjectSection.style.backgroundColor = '#B3DDD1';
-    semesterProject.style.backgroundColor = '#B3DDD1';
-
-    projectExam.style.backgroundColor = 'unset';
-    crossCourse.style.backgroundColor = 'unset'
-
-
-})
-projectExam.addEventListener('click', () => {
-    crossCourseSection.style.display = 'none';
-    semesterProjectSection.style.display = 'none';
-    projectExamSection.style.display = 'block';
-
-    projectExamSection.style.backgroundColor = '#c8b7c9';
-    projectExam.style.backgroundColor = '#c8b7c9';
-
-    semesterProject.style.backgroundColor = 'unset';
-    crossCourse.style.backgroundColor = 'unset'
-
-})
+        })
+}
