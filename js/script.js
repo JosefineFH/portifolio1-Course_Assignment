@@ -19,7 +19,7 @@ function fetchContent() {
             <h2>${crossCorseData.projectName}</h2>
             <p style="text-align: center; padding-top: 20px;">${crossCorseData.scriptLanguages}</p>
             <ul>
-            <li><a hrf="${crossCorseData.githubLink}">Github</a></li>
+            <li><a href="${crossCorseData.githubLink}">Github</a></li>
             <li> | </li>
             <li><a href="${crossCorseData.liveVersion}">Live Version</a></li>
             </ul>
@@ -32,7 +32,7 @@ function fetchContent() {
             <h2>${semesterProjectData.projectName}</h2>
             <p style="text-align: center; padding-top: 20px;">${semesterProjectData.scriptLanguages}</p>
             <ul>
-            <li><a hrf="${semesterProjectData.githubLink}">Github</a></li>
+            <li><a href="${semesterProjectData.githubLink}">Github</a></li>
             <li> | </li>
             <li><a href="${semesterProjectData.liveVersion}">Live Version</a></li>
             </ul>
@@ -45,7 +45,7 @@ function fetchContent() {
             <h2>${projectExamData.projectName}</h2>
             <p style="text-align: center; padding-top: 20px;">${projectExamData.scriptLanguages}</p>
             <ul>
-            <li><a hrf="${semesterProjectData.githubLink}">Github</a></li>
+            <li><a href="${semesterProjectData.githubLink}">Github</a></li>
             <li> | </li>
             <li><a href="${semesterProjectData.liveVersion}">Live Version</a></li>
             </ul>
