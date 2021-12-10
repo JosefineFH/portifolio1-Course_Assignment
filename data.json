@@ -22,9 +22,9 @@
         "githubLink": "https://github.com/JosefineFH/semester_project_1",
         "liveVersion": "https://community-museum.netlify.app/",
         "scriptLanguages": [
+            "JavaScript",
             "HTML",
-            "CSS",
-            "JavaScript"
+            "CSS"
         ],
         "wantToUpdate": [
             "This is what i want to update.",
@@ -36,7 +36,7 @@
         "typeOfProject": "Project Exam",
         "projectName": "Photographer Josefine Holth | Blog",
         "githubLink": "https://github.com/Noroff-FEU-Assignments/project-exam-1-JosefineFH",
-        "liveVersion": "https://josefineholthphotographer.netlify.app/index.html",
+        "liveVersion": "https://josefineholthphotographer.netlify.app",
         "scriptLanguages": [
             "JavaScript",
             "HTML",

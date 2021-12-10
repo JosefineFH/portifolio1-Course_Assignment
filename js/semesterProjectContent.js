@@ -14,9 +14,9 @@ fetch(jsonData)
                 
             </ul>            
             <ul>
-            <li><a href="${semesterProjectData.githubLink}">Github</a></li>
+            <li><a href="${semesterProjectData.githubLink}" target="_blank">Github</a></li>
             <li> | </li>
-            <li><a href="${semesterProjectData.liveVersion}">Live Version</a></li>
+            <li><a href="${semesterProjectData.liveVersion}" target="_blank">Live Version</a></li>
             </ul>
             </div>`;
         const semesterProjectUpdate = document.querySelector('.semester_project_update');

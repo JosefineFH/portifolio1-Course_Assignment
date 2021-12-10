@@ -14,9 +14,9 @@ fetch(jsonData)
                 <li>${crossCorseData.scriptLanguages[3]}</li>
             </ul>            
             <ul>
-            <li><a href="${crossCorseData.githubLink}">Github</a></li>
+            <li><a href="${crossCorseData.githubLink} target="_blank"">Github</a></li>
             <li> | </li>
-            <li><a href="${crossCorseData.liveVersion}">Live Version</a></li>
+            <li><a href="${crossCorseData.liveVersion} target="_blank"">Live Version</a></li>
             </ul>
             </div>
             `;

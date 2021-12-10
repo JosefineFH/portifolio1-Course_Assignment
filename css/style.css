@@ -3,6 +3,7 @@
     src: url('/fonts/NT\ Wagner.otf');
 }
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +11,8 @@
 body,
 html {
   min-height: 100%;
-  font-family: 'Ubuntu', sans-serif;
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-family: 'Roboto Mono', monospace;
 }
 header{
     width: 100%;

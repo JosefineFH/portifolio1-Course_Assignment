@@ -18,11 +18,12 @@ const projectExamContent = document.querySelector('.project_exam_content');
                 <li>${projectExamData.scriptLanguages[0]}</li>
                 <li>${projectExamData.scriptLanguages[1]}</li>
                 <li>${projectExamData.scriptLanguages[2]}</li>
+                <li>${projectExamData.scriptLanguages[3]}</li>
             </ul>
             <ul>
-            <li><a href="${projectExamData.githubLink}">Github</a></li>
+            <li><a href="${projectExamData.githubLink} target="_blank"">Github</a></li>
             <li> | </li>
-            <li><a href="${projectExamData.liveVersion}">Live Version</a></li>
+            <li><a href="${projectExamData.liveVersion} target="_blank"">Live Version</a></li>
             </ul>
             </div>
             `
