@@ -24,7 +24,8 @@
         "scriptLanguages": [
             "JavaScript",
             "HTML",
-            "CSS"
+            "CSS",
+            "Wordpress"
         ],
         "wantToUpdate": [
             "This is what i want to update.",
@@ -35,8 +36,8 @@
     "projectExam": {
         "typeOfProject": "Project Exam",
         "projectName": "Photographer Josefine Holth | Blog",
-        "githubLink": "https://github.com/Noroff-FEU-Assignments/project-exam-1-JosefineFH",
-        "liveVersion": "https://josefineholthphotographer.netlify.app",
+        "githubLink": "https://github.com/JosefineFH/Josefine_Holth_Photo_Portfolio",
+        "liveVersion": "https://fotografjosefineholth.netlify.app/",
         "scriptLanguages": [
             "JavaScript",
             "HTML",
