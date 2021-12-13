@@ -41,8 +41,8 @@ projectExam.addEventListener('click', () => {
     semesterProjectSection.style.display = 'none';
     projectExamSection.style.display = 'block';
 
-    projectExamSection.style.backgroundColor = '#c8b7c9';
-    projectExam.style.backgroundColor = '#c8b7c9';
+    projectExamSection.style.backgroundColor = '#F9E6DF';
+    projectExam.style.backgroundColor = '#F9E6DF';
 
     semesterProject.style.backgroundColor = 'unset';
     crossCourse.style.backgroundColor = 'unset'

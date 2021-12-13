@@ -45,9 +45,8 @@
             "Wordpress"
         ],
         "wantToUpdate": [
-            "This is what i want to update.",
-            "Damage resistance",
-            "Superhuman reflexes"
+            "<p class=\"content\">I added a new page called archive, both HTML, CSS and JavaScript. I had an idea about this page before I delivered the exam project. But I didn&#x27;t find the time for it before now.</p><p class=\"content\">The link for the page is added in the footer. When you loaded all of the blog content, and you get the &quot;there are no more posts to load for now&quot;. There is also a link there. Same when you are on the gallery page and you click on a category with no content. There is a link to the archives.</p><p class=\"content\">There is a search field on the archive page that you can search for whatever you want. It starts to search instantly as you type a letter in. There is also a sub-menu coming from my API with a category in WordPress. I have put in an if statement that says if there is there is 0 blog posts in the category it will not show.</p><p class=\"content\">This was one of the level 2 tasks for the exam. I had already done the one with post data from the contact form to WordPress. And the task of submitting a comment on the blog posts. I don&#x27;t know if I should or want to have that on a portfolio blog page.</p>"
+
         ]
     }
 }

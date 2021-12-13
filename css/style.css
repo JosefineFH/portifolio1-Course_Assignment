@@ -2,7 +2,6 @@
     font-family: 'Wagner';
     src: url('/fonts/NT\ Wagner.otf');
 }
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 * {
   margin: 0;
@@ -11,8 +10,7 @@
 body,
 html {
   min-height: 100%;
-  /* font-family: 'Ubuntu', sans-serif; */
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'aktiv-grotesk','aktiv-grotesk-extended','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 header{
     width: 100%;
@@ -23,13 +21,12 @@ h1, h2{
 }
 .tab_button {
   width: 100%;
-  color: #555;
+  /* color: #555; */
   border: none;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
   font-size: 17px;
-  /* color: white; */
 }
 .tab_button:hover {
   background-color: #777;
@@ -51,6 +48,7 @@ h1, h2{
 }
 .content h2{
     text-align: center;
+    
 }
 ul{
   display: flex;
@@ -64,19 +62,55 @@ ul{
 li{
   padding: 20px 10px;
 }
+.content{
+  padding: 10px;
+}
+.tab_button .project_exam_tab{
+  color: #852017;
+  font-weight: bolder;
+}
+.project_exam_1 h2{
+  color: #852017;
+}
+.project_exam_1 p {
+  color: #852017;
+}
+.project_exam_1 .a_link{
+  display: block;
+    padding-bottom: 32px;
+}
+.a_link_border{
+  margin: 0 32px;
+  padding: 16px 24px 20px 32px;
+  background-color: #f9d5c5;
+  border: 1px solid #852017;
+  box-shadow: 8px 8px 0 #852017;
+}
+.a_link_border:hover{
+  margin: 0 32px;
+  padding: 16px 24px 20px 32px;
+  background-color: #f9d5c5;
+  border: 1px solid #852017;
+  box-shadow: 8px 8px 0 #F9E6DE;
+}
+.project_exam_1 a{
+  text-decoration: none;
+  color: #852017;
+  font-weight: 600;
+}
 
 @media only screen and (min-width: 768px) {
   header {
     display: flex;
   }
-  .content{
-      max-width: 700px;
+  .content p{
+      width: 700px;
       margin: auto;
   }
 }
 @media only screen and (min-width: 1024px) {
     .content{
-        max-width: 1000px;
+        width: 900px;
         margin: auto;
     }
 }

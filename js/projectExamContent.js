@@ -22,11 +22,19 @@ const projectExamContent = document.querySelector('.project_exam_content');
             </ul>
             <ul>
             <li>
-            <a href="${data.projectExam.githubLink}" target="_blank">Github</a>
+            <a class="a_link" href="${data.projectExam.githubLink}" target="_blank">
+            <div class="a_link_border">
+            Github
+            </div>
+            </a>
             </li>
-            <li> | </li>
+            
             <li>
-            <a href="${data.projectExam.liveVersion}" target="_blank">Live Version</a>
+            <a class="a_link" href="${data.projectExam.liveVersion}" target="_blank">
+            <div class="a_link_border">
+            Live Version
+            </div>
+            </a>
             </li>
             </ul>
             </div>
