@@ -21,13 +21,17 @@ const projectExamContent = document.querySelector('.project_exam_content');
                 <li>${projectExamData.scriptLanguages[3]}</li>
             </ul>
             <ul>
-            <li><a href="${projectExamData.githubLink} target="_blank"">Github</a></li>
+            <li>
+            <a href="${data.projectExam.githubLink}" target="_blank">Github</a>
+            </li>
             <li> | </li>
-            <li><a href="${projectExamData.liveVersion} target="_blank"">Live Version</a></li>
+            <li>
+            <a href="${data.projectExam.liveVersion}" target="_blank">Live Version</a>
+            </li>
             </ul>
             </div>
             `
-
+            console.log(data.projectExam)
             projectExamData.wantToUpdate.forEach(updates => {
                 projectExamUpdate.innerHTML += `
                 <div>
