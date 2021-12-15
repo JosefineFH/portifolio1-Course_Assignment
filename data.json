@@ -28,9 +28,9 @@
             "Wordpress"
         ],
         "wantToUpdate": [
-            "This is what i want to update.",
-            "Damage resistance",
-            "Superhuman reflexes"
+            "<img src=\"/image/thesciensmuseum.jpg\" alt=\"The science museum\">",
+            "<h2>What is new on this project</h2>",
+            "<ul><li>Added WordPress as a backend.</li></ul><h3>Changes on the landing page:</h3><ul><li>The header image has been switched whit a gallery image.</li><li>CSS: added clip-path on the header image and the background image on the event section. Also added background attachment: fixed to have a parallax scrolling effect.</li></ul><h3>Changes when it comes to events:</h3><ul><li>All the events are added on WordPress&nbsp;between the plugin The Event Calendar. Using the plugin, you can add the date, time, title, prices, images, and other info needed for an event.</li><li>Add specific events&nbsp;page where all the info about the events is. Here is also a contact form for booking an event.&nbsp;</li></ul><p>I have also added javascript to the form, and of course, I have used javascript to fetch the events from WordPress.</p><h3 class=\"updates_to_come\">What I want to update:</h3><ul><li>Look more into the event plugin to add direct booking and a count for how many available tickets are. When that number is reached, the event is fully booked.&nbsp;</li></ul><p>&nbsp;</p>"
         ]
     },
     "projectExam": {
