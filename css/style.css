@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Wagner';
-    src: url('/fonts/NT\ Wagner.otf');
+  font-family: "Wagner";
+  src: url("/fonts/NT\ Wagner.otf");
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,18 +10,19 @@
 body,
 html {
   min-height: 100%;
-  font-family: 'aktiv-grotesk','aktiv-grotesk-extended','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-family: "aktiv-grotesk", "aktiv-grotesk-extended", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
 }
-header{
-    width: 100%;
+header {
+  width: 100%;
 }
 /* ----------------------------- style tab menu ----------------------------- */
-h1, h2{
-    font-family: 'Wagner', sans-serif;
+h1,
+h2 {
+  font-family: "Wagner", sans-serif;
 }
 .tab_button {
   width: 100%;
-  /* color: #555; */
   border: none;
   outline: none;
   cursor: pointer;
@@ -34,83 +35,136 @@ h1, h2{
 
 .cross_course_project,
 .cross_corse_tab {
-  
-  background-color: #B8D2D8;
+  background-color: #f5f0ff;
+}
+.project_content {
+  padding: 5rem 1rem;
 }
 
 .cross_course_project,
 .semester_project,
 .project_exam_1 {
   width: 100%;
-
   min-height: 100vh;
-  padding: 100px 20px;
 }
-.content h2{
-    text-align: center;
-    
+.project_content h2 {
+  text-align: center;
 }
-ul{
+ul {
   display: flex;
-  /* margin: auto; */
-  /* flex-direction: row; */
-  /* flex-wrap: nowrap; */
   align-content: center;
   justify-content: center;
   list-style: none;
 }
-li{
+li {
   padding: 20px 10px;
 }
-.content{
+.content {
   padding: 10px;
 }
-.tab_button .project_exam_tab{
-  color: #852017;
-  font-weight: bolder;
-}
-.project_exam_1 h2{
-  color: #852017;
-}
-.project_exam_1 p {
-  color: #852017;
-}
-.project_exam_1 .a_link{
-  display: block;
-    padding-bottom: 32px;
-}
-.a_link_border{
+.a_link_border {
   margin: 0 32px;
   padding: 16px 24px 20px 32px;
+}
+.a_link_border:hover {
+  transition: linear 0.1s;
+  margin: 0 32px;
+  padding: 16px 24px 20px 32px;
+}
+.cross_corse_tab,
+.semester_project_tab,
+.project_exam_tab {
+  font-weight: bolder;
+}
+/* --------------------------- cross corse project -------------------------- */
+.cross_course_project h2,
+.cross_course_project p,
+.cross_corse_tab,
+.cross_course_project,
+li {
+  color: #360297;
+}
+
+.cross_course_project .a_link_border{
+  background-color: #E6D7FF;
+  border: 1px solid #360297;
+  box-shadow: 8px 8px 0 #360297;
+  width: 200px;
+  height: 10px;
+  text-align: center;
+}
+.cross_course_project .a_link_border:hover{
+  box-shadow: 8px 8px 0 #f5f0ff;
+}
+.cross_course_project a{
+  color: #360297;
+}
+/* ---------------------------- Semester Project ---------------------------- */
+.semester_project  h2,
+.semester_project  p,
+.semester_project_tab,
+.semester_project li {
+  color:#114061;
+}
+
+.semester_project .a_link_border{
+  background-color: #C3E8F9;
+  border: 1px solid #114061;
+  box-shadow: 8px 8px 0 #114061;
+  width: 200px;
+  height: 10px;
+  text-align: center;
+}
+.semester_project .a_link_border:hover{
+  box-shadow: 8px 8px 0 #DBF0F9;
+}
+.semester_project a{
+  color: #114061;
+}
+/* ------------------------------ Project exam ------------------------------ */
+.project_exam_1 p,
+.project_exam_1 li,
+.project_exam_1 h2,
+.project_exam_tab {
+  color: #852017;
+}
+.project_exam_1 .a_link {
+  display: block;
+  padding-bottom: 32px;
+}
+
+.project_exam_1 .a_link_border {
   background-color: #f9d5c5;
   border: 1px solid #852017;
   box-shadow: 8px 8px 0 #852017;
+  width: 200px;
+  height: 10px;
+  text-align: center;
 }
-.a_link_border:hover{
-  margin: 0 32px;
-  padding: 16px 24px 20px 32px;
-  background-color: #f9d5c5;
-  border: 1px solid #852017;
-  box-shadow: 8px 8px 0 #F9E6DE;
+.project_exam_1 .a_link_border:hover {
+  box-shadow: 8px 8px 0 #f9e6de;
 }
-.project_exam_1 a{
-  text-decoration: none;
+.project_exam_1 a {
   color: #852017;
+}
+a{
+  text-decoration: none;
   font-weight: 600;
 }
-
 @media only screen and (min-width: 768px) {
   header {
     display: flex;
   }
-  .content p{
-      width: 700px;
-      margin: auto;
+  .project_content {
+    width: 700px;
+
+    margin: auto;
   }
 }
 @media only screen and (min-width: 1024px) {
-    .content{
-        width: 900px;
-        margin: auto;
-    }
+  .project_content {
+    padding-top: 5rem;
+    width: 900px;
+    margin: auto;
+  }
 }

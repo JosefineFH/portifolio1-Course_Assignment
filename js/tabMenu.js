@@ -14,8 +14,8 @@ crossCourse.addEventListener('click', () => {
     semesterProjectSection.style.display = 'none';
     projectExamSection.style.display = 'none';
 
-    crossCourse.style.backgroundColor = '#B8D2D8'
-    crossCourseSection.style.backgroundColor = '#B8D2D8';
+    crossCourse.style.backgroundColor = '#f5f0ff';
+    crossCourse.style.backgroundColor = '#f5f0ff';
 
     semesterProject.style.backgroundColor = 'unset';
     projectExam.style.backgroundColor = 'unset';
@@ -28,8 +28,8 @@ semesterProject.addEventListener('click', () => {
     semesterProjectSection.style.display = 'block';
     projectExamSection.style.display = 'none';
 
-    semesterProjectSection.style.backgroundColor = '#B3DDD1';
-    semesterProject.style.backgroundColor = '#B3DDD1';
+    semesterProjectSection.style.backgroundColor = '#DBF0F9';
+    semesterProject.style.backgroundColor = '#DBF0F9';
 
     projectExam.style.backgroundColor = 'unset';
     crossCourse.style.backgroundColor = 'unset'
