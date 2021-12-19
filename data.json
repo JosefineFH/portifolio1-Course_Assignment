@@ -11,9 +11,7 @@
             "Wordpress"
         ],
         "wantToUpdate": [
-            "This is what i want to update.",
-            "Damage resistance",
-            "Superhuman reflexes"
+            "<p>After I added WordPress to rainy days the whole shopping cart needed to be redone. Because the plus and minus buttons didn't work anymore, not the price calculation, or the local storage for the price. </p><p>I ended up finishing the plus and minus buttons after a lot of back and forth with the functions. </p><br><br><h2>What I have left to do:</h2><p>- the price calculating</p><p>- local storage for the total price.</p><p>- the checkout page</p><p>- I wanted to connect the registration for subscribing to work with WordPress and have a message appear when the registration is done.</p></div>"
         ]
     },
     "semesterProject": {

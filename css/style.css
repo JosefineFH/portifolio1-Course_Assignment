@@ -55,6 +55,9 @@ ul {
   align-content: center;
   justify-content: center;
   list-style: none;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
 }
 li {
   padding: 20px 10px;
@@ -121,6 +124,11 @@ li {
 .semester_project a{
   color: #114061;
 }
+.semester_project div{
+  width: 300px;
+  display: block;
+  margin: auto;
+}
 /* ------------------------------ Project exam ------------------------------ */
 .project_exam_1 p,
 .project_exam_1 li,
@@ -160,6 +168,14 @@ a{
 
     margin: auto;
   }
+  .semester_project div {
+    width: 700px;
+}
+
+  ul {
+    flex-direction: row;
+}
+
 }
 @media only screen and (min-width: 1024px) {
   .project_content {
