@@ -15,11 +15,11 @@ fetch(jsonData)
             </ul>            
             <ul>
             <li>
-            <a class="a_link" href="${crossCorseData.githubLink} target="_blank"">
+            <a class="a_link" href="${crossCorseData.githubLink}" target="_blank"">
             <div class="a_link_border">Github</div>
             </a>
             </li>
-            <li><a href="${crossCorseData.liveVersion} target="_blank"">
+            <li><a href="${crossCorseData.liveVersion}" target="_blank"">
             <div class="a_link_border">Live Version</div></a>
             </li>
             </ul>
